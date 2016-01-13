@@ -1,6 +1,6 @@
 GlobalFunc = {}
 
-
+--将table输出为string打印
 function GlobalFunc.sz_T2S(_t)
     local szRet = "{"
     function doT2S(_i, _v)
